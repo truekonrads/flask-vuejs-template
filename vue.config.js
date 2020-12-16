@@ -11,6 +11,7 @@ module.exports = {
   // Whitenoise will serve once to CDN which will then cache
   // and distribute
   devServer: {
+    disableHostCheck: true,
     proxy: {
       '/api*': {
         // Forward frontend dev server request for /api to flask dev server
