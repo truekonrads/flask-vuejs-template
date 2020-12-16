@@ -5,7 +5,7 @@ name = "pypi"
 
 [packages]
 gunicorn = "==19.7.1"
-flask-restplus = "*"
+flask-restx = "*"
 python-dotenv = "*"
 flask = "*"
 
